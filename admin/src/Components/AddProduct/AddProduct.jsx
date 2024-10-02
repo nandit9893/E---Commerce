@@ -4,7 +4,7 @@ import axios from "axios";
 import upload_area from "../../assets/upload_area.svg";
 import { toast } from "react-toastify";
 const AddProduct = () => {
-  const url = "http://localhost:8000";
+  const url = "https://stylo-clothes-back-end.onrender.com";
   const [image, setImage] = useState(false);
   const [data, setData] = useState({
     name: "",
