@@ -4,7 +4,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import cross_icon from "../../assets/cross_icon.png";
 const ListProduct = () => {
-  const url = "http://localhost:8000";
+  const url = "https://stylo-clothes-back-end.onrender.com";
   const [allProducts, setAllProducts] = useState([]);
 
   const getAllProducts = async () => {
