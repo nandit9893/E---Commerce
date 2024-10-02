@@ -9,7 +9,7 @@ const getDefaultCart = () => {
   return cart;
 };
 const AppContextProvider = ({ children }) => {
-  const url = "http://localhost:8000";
+  const url = "https://stylo-clothes-back-end.onrender.com";
   const [cartItems, setCartItems] = useState(getDefaultCart());
   const [all_product, set_all_product] = useState([]);
 
