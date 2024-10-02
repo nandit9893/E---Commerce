@@ -3,7 +3,7 @@ import "./NewCollections.css";
 import Item from "../../Components/Item/Item";
 import { AppContext } from "../../Context/AppContext";
 import axios from "axios";
-const NewCollections = () => {
+const NewCollections = React.forwardRef((props, ref) => {
   const { url } = useContext(AppContext);
   const [ new_collections, set_new_collections ] = useState([]);
 
@@ -24,7 +24,7 @@ const NewCollections = () => {
   }, []);
 
   return (
-    <div className="new-collections">
+    <div ref={ref} className="new-collections">
         <h1>NEW COLLECTIONS</h1>
         <hr />
         <div className="collections">
@@ -36,6 +36,6 @@ const NewCollections = () => {
         </div>
     </div>
   )
-}
+});
 
 export default NewCollections
