@@ -64,9 +64,10 @@
     .footer-logo {
         gap: 10px;
         align-items: end;
+        flex-direction: column;
     }
     .footer-logo img {
-        width: 40px;
+        width: 100%;
     }
     .footer-logo p {
         font-size: 25px;
