@@ -56,7 +56,26 @@
 ## Conclusion
 This e-commerce shopping website with an integrated admin panel demonstrates the comprehensive use of the MERN stack to create a modern, responsive, and secure shopping platform. With features for both customers and administrators, it offers seamless product browsing, cart management, and secure checkout functionality, along with robust tools for managing products, orders, and users. Whether accessed on desktop or mobile devices, the website provides an intuitive experience for all users.
 
-
+# Website Images
+## Webpages
 ![E-Commerce](front-end/src/assets/EC1.png)
-
-
+## Popular in Women
+![E-Commerce](front-end/src/assets/EC2.png)
+## New Collections
+![E-Commerce](front-end/src/assets/EC3.png)
+## Footer
+![E-Commerce](front-end/src/assets/EC4.png)
+## Men Collections
+![E-Commerce](front-end/src/assets/EC5.png)
+## Women Collections
+![E-Commerce](front-end/src/assets/EC6.png)
+## Kids Collections
+![E-Commerce](front-end/src/assets/EC7.png)
+## Cart 
+![E-Commerce](front-end/src/assets/EC10.png)
+## Order
+![E-Commerce](front-end/src/assets/EC11.png)
+## Sign Up
+![E-Commerce](front-end/src/assets/EC9.png)
+## Login
+![E-Commerce](front-end/src/assets/EC10.png)
