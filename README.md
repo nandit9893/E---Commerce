@@ -9,10 +9,10 @@
 - **Log In**: Registered users can log in with their credentials. JSON Web Tokens (jsonwebtoken) are used for secure authentication and session management.
 
 ### Product Management
--**Product Listings**: Users can browse a wide range of products with details such as price, description, and images. Products are dynamically displayed with real-time updates from the MongoDB database.
--**Product Categories**: The website includes multiple categories to help users navigate and find products of interest.
--**Product Search:** Users can search for products by name, category, or keywords for a streamlined shopping experience.
--**Product Details Page:** Each product has a dedicated page displaying detailed information, reviews, and related items.
+- **Product Listings**: Users can browse a wide range of products with details such as price, description, and images. Products are dynamically displayed with real-time updates from the MongoDB database.
+- **Product Categories**: The website includes multiple categories to help users navigate and find products of interest.
+- **Product Search:** Users can search for products by name, category, or keywords for a streamlined shopping experience.
+- **Product Details Page:** Each product has a dedicated page displaying detailed information, reviews, and related items.
 
 ### Shopping Cart & Checkout
 -**Add to Cart**: Users can add items to their cart with a single click. The cart dynamically updates as users add or remove products.
