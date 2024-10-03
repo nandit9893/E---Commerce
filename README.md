@@ -15,19 +15,19 @@
 - **Product Details Page:** Each product has a dedicated page displaying detailed information, reviews, and related items.
 
 ### Shopping Cart & Checkout
--**Add to Cart**: Users can add items to their cart with a single click. The cart dynamically updates as users add or remove products.
--**Cart Management**: Users can update the quantity of products or remove them from the cart.
--**Secure Checkout**: After reviewing their cart, users can proceed to the checkout, providing shipping information and making secure payments.
+- **Add to Cart**: Users can add items to their cart with a single click. The cart dynamically updates as users add or remove products.
+- **Cart Management**: Users can update the quantity of products or remove them from the cart.
+- **Secure Checkout**: After reviewing their cart, users can proceed to the checkout, providing shipping information and making secure payments.
 
 ### Admin Panel
--**Dashboard**: The admin panel features a dashboard providing an overview of key website metrics such as total orders, total products, and user activity.
--**Product Management**: Admins can add, update, or remove products directly from the admin panel. They can manage product details such as name, price, category, and images.
--**Order Management**: Admins can view, update, and manage customer orders. This includes the ability to change order statuses (e.g., pending, shipped, delivered) and manage order details.
--**User Management**: Admins can view all registered users, block/unblock users, or delete accounts. The panel provides easy access to user details and order history.
--**Reports & Analytics**: Admins can view sales reports and customer behavior analytics to gain insights into website performance and make data-driven decisions.
+- **Dashboard**: The admin panel features a dashboard providing an overview of key website metrics such as total orders, total products, and user activity.
+- **Product Management**: Admins can add, update, or remove products directly from the admin panel. They can manage product details such as name, price, category, and images.
+- **Order Management**: Admins can view, update, and manage customer orders. This includes the ability to change order statuses (e.g., pending, shipped, delivered) and manage order details.
+- **User Management**: Admins can view all registered users, block/unblock users, or delete accounts. The panel provides easy access to user details and order history.
+- **Reports & Analytics**: Admins can view sales reports and customer behavior analytics to gain insights into website performance and make data-driven decisions.
 
 ### Responsive Design
--**All Devices**: The application is fully responsive, ensuring a smooth experience on both desktop and mobile devices. The design adapts seamlessly to different screen sizes, maintaining usability and accessibility for both users and admins.
+- **All Devices**: The application is fully responsive, ensuring a smooth experience on both desktop and mobile devices. The design adapts seamlessly to different screen sizes, maintaining usability and accessibility for both users and admins.
 
 ## Technologies Used
 ### Frontend
