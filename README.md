@@ -75,5 +75,7 @@ This e-commerce shopping website with an integrated admin panel demonstrates the
 ![E-Commerce](front-end/src/assets/EC10.png)
 ## Order
 ![E-Commerce](front-end/src/assets/EC11.png)
+## Sign Up
+![E-Commerce](front-end/src/assets/EC9.png)
 ## Login
 ![E-Commerce](front-end/src/assets/EC8.png)
