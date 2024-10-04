@@ -2,6 +2,7 @@
   This project is a fully functional e-commerce shopping website developed using the MERN stack (MongoDB, Express.js, React.js, and Node.js) and includes an admin panel for managing products, orders, and users. The website features a user-friendly shopping interface, robust authentication, and essential e-commerce features. Below is a detailed overview of the application's features, including the admin panel, and the technologies used.
 
   **Visit**: https://stylo-clothes.onrender.com
+  
   **Visit**: https://stylo-clothes-admin-panel.onrender.com
   
 ## Key Features
