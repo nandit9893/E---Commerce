@@ -3,9 +3,21 @@ import "./ProductDisplay.css"
 import star_icon from "../../assets/star_icon.png";
 import star_dull_icon from "../../assets/star_dull_icon.png";
 import { AppContext } from "../../Context/AppContext";
+import { useNavigate } from "react-router-dom";
 const ProductDisplay = (props) => {
   const { product } = props;
   const { addToCart } = useContext(AppContext);
+  const navigate = useNavigate();
+
+  const handleCart = (id) => {
+    if(localStorage.getItem("accessToken")) {
+      addToCart(id);
+    }
+    else {
+      navigate("/login");
+    }
+  }
+
   return (
     <div className="productdisplay">
       <div className="productdisplay-left">
@@ -46,7 +58,7 @@ const ProductDisplay = (props) => {
             <div>XXL</div>
           </div>
         </div>
-        <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
+        <button onClick={()=>{handleCart(product.id)}}>ADD TO CART</button>
         <p className="productdisplay-right-category"><span>Category : </span>Women, T-Shirt, Crop Top</p>
         <p className="productdisplay-right-category"><span>Tags : </span>Modern, Latest</p>
       </div>

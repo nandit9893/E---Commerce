@@ -28,7 +28,7 @@
 }
 @media (max-width:500px) {
     .breadcrum {
-        font-size: 10px;
+        font-size: 8px;
         gap: 1px;
     }
     .breadcrum img {
